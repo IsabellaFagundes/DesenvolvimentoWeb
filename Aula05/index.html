@@ -1,0 +1,146 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <title>Atividade Aula 05</title>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css">
+    <link rel="stylesheet" href="CSS/meucss.css">
+</head>
+
+<body>
+
+    <!--Menu de navegação-->
+
+    <nav class="navbar navbar-dark bg-dark navbar-expand-sm fixed-top">
+        <!-- Navbars precisam de um .navbar com .navbar-expand{-sm|-md|-lg|-xl}
+             (para responsividade) e classes do esquema de cores;
+             fixed-top para fixar no topo da tela -->
+        <div class="container">
+
+            <!-- button cria o botão para o menu no celular,   -->
+            <!-- data-toggle="collapse alterna um elemento colapsável para mostrar ou escondê-lo.-->
+            <!-- data-target irá fazer referência ao seu alvo (id="Navbar")-->
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#Navbar">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <!-- - navbar-brand para o nome de seu projeto, produto ou companhia;-->
+            <img class="navbar-brand img" src="Img/logo.png"></img>
+
+            <div class="collapse navbar-collapse" id="Navbar">
+                <!--mr-auto define uma margem a direita o máximo possível-->
+                <!--Active dá destaque para o elemento-->
+                <ul class="navbar-nav mr-auto">
+                    <li class="nav-item active "><a class="nav-link" href="index.html"> Página Inicial
+                    <li class="nav-item"><a class="nav-link" href="#"> Pedir no Ifood</a></li>
+                    <li class="nav-item"><a class="nav-link" href="#"> Contato</a>
+                    </li>
+                </ul>
+            </div>
+        </div> <!-- Fim do container-->
+    </nav>
+    <!--Cebeçalho da página-->
+
+    <header class="header">
+        <!--- Jumbotron é um componente leve e flexível para exibir conteúdo;
+            - row define uma linha no sistema de grid;
+            - col-12 define o espaço ocupado em uma tela de celular
+            - col-sm-6 define o espaço ocupado em uma de tablet ou computador -->
+        <div class="container">
+            <div class="row">
+                <div class="col-12 col-sm-6">
+                    <!--em web vai ocupar 12, em mobile vai ocupar 6-->
+                    <h1>Restaurante da vovó</h1>
+                    <p>
+                        Comida caseira, feita com muito amor e sabor.
+                    </p>
+                </div>
+            </div>
+        </div>
+    </header>
+
+    <!--Container do conteúdo-->
+    <div class="container">
+
+        <div class="row ">
+            <div class="col-12">
+                <h2>Cardápio</h2>
+                <hr>
+            </div>
+        </div>
+
+        <!--Vamos implemnetar o estilo conteúdo posteriormente-->
+
+        <div class="row">
+            <!--col-sm-6 e col-md-6 define o espaço de 6 colunas em qualquer tela -->
+            <div class="col col-sm-6 col-md-6">
+                <h4>Almoço</h4>
+                <ul class="list-unstyled list">
+                    <li>Bife a Parmegiana</li>
+                    <li>Filé com Fritas</li>
+                    <li>Feijoada</li>
+                    <li>Churrasco</li>
+                </ul>
+            </div>
+        </div>
+
+        <!--vamos colocar outro conteúdo aqui-->
+
+        <div class="row row-content">
+            <!--col-sm col-md define o espaço de 12 colunas em qualquer tela -->
+            <div class="col col-sm col-md">
+                <h4>Jantar</h4>
+                <ul class="list-unstyled list">
+                    <li>Salmão Grelhado</li>
+                    <li>Risoto de Camarão</li>
+                    <li>Fondue</li>
+                    <li>Carbonara</li>
+                </ul>
+            </div>
+        </div>
+    </div>
+
+    <!--Rodapé-->
+    <footer class="jumbotron">
+        <div class="container">
+
+            <div class="row">
+                <!-- offset-1 acrescentam a margem esquerda de 1 coluna-->
+                <div class="col-4 offset-1 col-sm-2"> <!--acrescenta uma margem a esquerda-->
+                    <h5>Links</h5>
+                    <!-- list-unstyled retira o estilo da lista-->
+                    <ul class="list-unstyled"> <!--pra tirar o estilo da lista-->
+                        <li><a href="#">Página Inicial</a></li>
+                        <li><a href="#">Pedir no Ifood</a></li>
+                        <li><a href="#">Contato</a></li>
+                    </ul>
+                </div>
+                <div class="col-7 col-sm-5">
+                    <h5>Nosso Endereço</h5>
+                    <address>
+                        Avenida Paulista, São Paulo<br>
+                        Brasil<br>
+                        (11) 12345-6789<br>
+                        (11) 98765-4321<br>
+                        <a href="mailto:teste@gmail.com">teste@gmail.com</a> <!--mailto abre o outlook direto-->
+                    </address>
+                </div>
+            </div>
+            <!-- alinha o conteúdo no centro-->
+            <div class="row justify-content-center">
+                <!-- alinha a coluna no centro conforme definido na linha -->
+                <div class="col-auto ">
+                    <p>© Copyright 2021</p>
+                </div>
+            </div>
+
+    </footer>
+
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js"></script>
+</body>
+
+</html>
