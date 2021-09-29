@@ -1,0 +1,52 @@
+body {
+    /*define um espaçamento interno de 50px do topo*/
+    padding: 50px 0px 0px 0px;
+    /*especifica a ordem-z de sobreposição de um elemento e de seus herdeiros*/
+    /*o valor  z-index: 0 determina que todos elementos terão a mesma sobreposição*/
+    z-index: 0;
+}
+.jumbotron {
+    padding: 70px 30px 70px 30px;
+    margin: 0px auto;
+    background: rgb(49, 101, 213);
+    color: floralwhite;
+}
+
+.header{
+    padding: 50px 30px 70px 30px;
+    height: 150px;
+    margin: 0px auto;
+    background: rgb(49, 101, 213);
+    color: floralwhite;
+}
+
+.row-content {
+    border-bottom: 1px ridge;
+    min-height: 200px;
+}
+
+.img {
+    width: 4em;
+    height: 4em;
+}
+
+a{
+     color: rgba(255, 255, 255, 0.776)
+ }
+
+.list li {
+     margin-left: 40px;
+ }
+
+h2 {
+    color: rgb(49, 101, 213);
+    margin-top: 15px;
+}
+
+h4 {
+    margin-left: 20px;
+}
+
+
+ 
+

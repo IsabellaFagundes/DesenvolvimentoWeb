@@ -1,0 +1,37 @@
+body{
+    background-color: tomato;
+}
+
+
+#container {
+    width: 1000px;
+    margin-left:  100px;
+    text-align: center;
+    background-color: tomato;
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+
+form div {
+    margin-top: 5px;
+    text-align: center;
+}
+
+form input {
+    width: 300px;
+}
+
+form textarea {
+    width: 300px;
+    height: 100px;
+    margin-left: 40px;
+}
+
+.botao {
+    background-color: black;
+    color: white;
+    width: 100px;
+    height: 30px;
+    border-radius: 10px;
+    margin-left: 240px;
+}

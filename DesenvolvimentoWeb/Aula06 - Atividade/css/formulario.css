@@ -1,0 +1,35 @@
+#col2 h1{
+ text-align: left;
+ margin-left: 100px;
+font-family:comic sans;
+font-size: 20px;
+color:saddlebrown;
+font-style: normal;}
+
+#col2 form {
+  margin-top:10px;
+  margin-left:20px;
+  width: 300px;
+  padding: 5px;
+}
+ 
+
+#col2 form div + div {
+margin-top: 5px;}
+#col2 input{
+width: 150px;
+}
+
+#col2 button {
+
+padding: 6px 20px;
+width: 150px;
+margin-left:5px; 
+  border-radius: 1px;  
+  text-align: center;
+  vertical-align: middle;    
+  background-color:goldenrod;
+  border-color:silver;
+  color: black;
+}
+

@@ -1,0 +1,19 @@
+#menuh {
+  background-color: #333;
+  overflow: auto; /*A barra de rolagem será adicionada 
+  automaticamente se o conteúdo exceder o tamanho do elemento.
+  */
+  white-space: nowrap; /*não quebra o texto e continuará na mesma linha*/ 
+}
+
+#menuh a {
+  display: inline-block;
+  color: white;
+  text-align: center;
+  padding: 14px;
+  text-decoration: none;
+}
+
+#menuh a:hover {/*Pseudo classes*/
+  background-color:silver;
+}

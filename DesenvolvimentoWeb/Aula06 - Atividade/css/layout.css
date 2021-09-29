@@ -1,0 +1,30 @@
+body { 
+text-align: center; 
+background-color: silver}
+
+
+
+#conteiner {
+ width: 820px;margin: 25px 50px 75px 100px 
+}
+
+#col1 { 
+width: 230px; float: left; 
+height: 300px;
+background-color:#eee}
+#col2{
+	background-image:url("../img/logo.jpg");
+	background-repeat: no-repeat;
+  	background-attachment: scroll;
+	background-position: center right;
+	width: 590px; 
+	float: left; 
+	height: 300px;
+	background-color:peachpuff;	
+}
+#rodape{
+	width: 820px;
+	float: left;
+	background-color: #333;
+	color: white;
+}

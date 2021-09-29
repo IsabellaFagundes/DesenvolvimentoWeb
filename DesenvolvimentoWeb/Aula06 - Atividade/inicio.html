@@ -1,0 +1,68 @@
+<html>
+
+<head>
+    <title>Layout de 3 colunas</title>
+    <link rel="stylesheet" type="text/css" href="css/layout.css">
+    <link rel="stylesheet" type="text/css" href="css/menu-horizontal.css">
+    <link rel="stylesheet" type="text/css" href="css/titulo.css">
+    <link rel="stylesheet" type="text/css" href="css/menu-vertical.css">
+    <link rel="stylesheet" type="text/css" href="css/formulario.css">
+
+    <script language="javascript" src="script/script.js"></script>
+
+</head>
+
+<body>
+
+    <div id="conteiner">
+
+        <div id="titulo">
+            <h1>Interfaces Web</h1>
+        </div>
+        <div id="menuh">
+            <a href="#">Inicio</a>
+            <a href="#">Sobre</a>
+            <a href="#">Contato</a>
+        </div>
+        <div id="col1">
+            <div id="menuv">
+                <a href="#">Inicio</a>
+                <a href="#">Sobre</a>
+                <a href="#">Contato</a>
+            </div>
+        </div>
+
+        <div id="col2">
+            <h1> Faça sua Inscrição</h1>
+
+            <FORM id="formulario">
+                <div>
+                    <input type="text" id="nome" placeholder="Nome" />
+                </div>
+
+                <div>
+                    <input type="email" id="email" placeholder="Email" />
+                </div>
+
+                <div>
+                    <input type="date" id="nasc">
+                </div>
+
+                <div class="button">
+                    <input type="button" value="Enviar" onclick="visualizardados();">
+                </div>
+
+            </FORM>
+        </div>
+        <div id="rodape">
+            <h3>Dados Enviados </h3>
+            <p id="mostra_nome"></p>
+            <p id="mostra_email"></p>
+            <p id="mostra_nasc"></p>
+        </div>
+
+        <script src="script/script.js"></script>
+
+</body>
+
+</html>
