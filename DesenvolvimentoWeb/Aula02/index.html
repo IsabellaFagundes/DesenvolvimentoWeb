@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <title>Página Inicial</title>
+    <link rel="stylesheet" type="text/css" href="css/meucss.css">
+
+    <style>
+        h1 {
+            text-align: center;
+            font-size:  25px;
+            color: rgb(226, 43, 159);
+            font-family: Arial, Helvetica, sans-serif;
+        }
+    </style>
+
+</head>
+<body>
+    <section>
+
+        <header>
+            <img src="html.jpg" height="200px" width="100%">
+            <h1>Curso de Programação Web</h1>
+        </header>
+
+        <nav id="coluna-1">
+            <ul id="menu-navegacao"> <!--Retira os pontinhos da-->
+                <!-- Links
+                <li><a href="index.html">Início</a></li> Referenciamos o link para o próprio arquivo, e colocamos uma "legenda"
+                <li><a href="https://youtube.com" target="_blank">Toutube</a></li> Aqui referenciamos um link externo
+                O target redireciona para uma nova página do navegador-->
+                <li><a href="index.html">Início</a></li>
+                <li><a href="cadastro.html">Inscreva-se</a></li>
+            </ul>
+        </nav>
+
+        <article id="coluna-2">
+            <h1>Informações sobre o curso</h1>
+            <p > <!--style="width: 95%; text-align: justify; font-family: Verdana, Geneva, Tahoma, sans-serif; font-size: 12pt;"-->
+                A disciplina de Desenvolvimento de Software para Web trata da
+                criação de sistemas web, levando em consideração interface 
+                (front-end) e back-end (funcionalidades). Serão abordadas as 
+                linguagens HTML, CSS, Javascript e PHP, bem como padrões de 
+                arquitetura como MVC e DAO para estruturação de sistemas web. 
+            </p>
+
+            <table class="estilo-tabela">
+                <tr>
+                    <th>Nome</th>
+                    <th>Sobremone</th>
+                    <th>Idade</th>
+                </tr>
+                <tr>
+                    <td>Jill</td>
+                    <td>Smith</td>
+                    <td>50</td>
+                </tr>
+                <tr>
+                    <td>Eve</td>
+                    <td>Jackson</td>
+                    <td>94</td>
+                </tr>
+            </table>
+        </article>
+
+        <footer class="rodape">
+            <p> Copyright 2021 by Refsnes Data. All Rights Reserved.</p>
+        </footer>
+    </section>
+</body>
+</html>
