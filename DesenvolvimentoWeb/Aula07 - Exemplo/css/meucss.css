@@ -1,0 +1,84 @@
+/*
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+*/
+/* 
+    Created on : 24/09/2019, 00:11:33
+    Author     : juvenal
+*/
+#container{
+text-align: center;
+width: 1000px;
+background-color: tomato;
+margin-left: 100px;
+border-radius: 10px;
+}
+#titulo{
+
+  font-size: 55px;
+  width: 900px;
+  text-align: center;
+  color: aliceblue;        
+  }
+  #titulo1{
+    margin-left: 550px;
+    font-size: 20px;  
+    line-height: 3;
+    width: 50%;
+          
+  }
+#produtos form{
+margin-top: 5px;
+border-radius: 10px;
+float: left;
+ }
+
+ #produtos img{
+  width: 200px;
+  margin: 10px;
+  height: 150px;
+  border-radius: 50%;
+   }
+   #produtos img:hover{
+    width: 220px;
+    margin: 10px;
+    height: 155px;
+    border-radius: 50%;
+     }
+#prod1{
+   
+    width: 320px;
+    float: left;
+    height:auto;
+    margin:5px;
+    background-color:tomato;
+    color:white;
+    text-decoration: none;
+    border-radius: 10px;
+}
+#prod2{
+  width: 320px;
+    float: left;
+    height: 250px;
+    margin:5px;
+    background-color:tomato;
+    color:white;
+    text-decoration: none;
+    border-radius: 10px;
+    height:auto;
+}
+#prod3{
+    
+  width: 320px;
+  float: left;
+  height: 250px;
+  margin:5px;
+  background-color:tomato;
+  color:white;
+  text-decoration: none;
+  border-radius: 10px;
+  height:auto;
+}
+
+
